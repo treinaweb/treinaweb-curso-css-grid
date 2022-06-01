@@ -12,6 +12,7 @@ body {
                          "sidebar conteudo-principal conteudo-principal"
                          "footer footer footer2"
     ;
+    gap: 5px 50px;
 }
 
 .grid-item {
