@@ -7,7 +7,9 @@ body {
     border: solid 2px black;
     display: grid;
     grid-template-columns: repeat(5, 150px);
+    grid-template-rows: 500px;
     justify-content: center;
+    align-items: center;
 }
 
 .grid-item {
