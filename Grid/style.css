@@ -9,7 +9,7 @@ body {
     grid-template-columns: repeat(5, 150px);
     grid-template-rows: 500px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .grid-item {
@@ -19,6 +19,21 @@ body {
     font-weight: 900;
     padding: 10px;
 }
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: center;
+}
+
+
+
+
+
+
+
 
 /* .header {
     grid-area: header;
