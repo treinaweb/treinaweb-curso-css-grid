@@ -22,10 +22,20 @@ body {
 
 .start {
     align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.center {
+    justify-self: center;
+}
+
+.stretch {
+    justify-self: stretch;
 }
 
 .end {
     align-self: center;
+    justify-self: flex-end;
 }
 
 
