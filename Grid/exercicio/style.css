@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+header {
+    background-color: #c6c6c6;
+}
+
+.nav-menu {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 50px;
+    align-items: flex-end;
+}
+
+.nav-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu ul li a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-weight: 600; 
+}
