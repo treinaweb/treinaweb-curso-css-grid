@@ -31,7 +31,7 @@ header {
 }
 
 .nav-menu ul li a {
-   text-decoration: none;
+   text-decoration: none;   
    color: black;
    font-size: 18px;
    font-weight: 600; 
@@ -43,4 +43,31 @@ header {
     display: grid;
     grid-template: auto / repeat(5,auto);
     gap: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #c6c6c6;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.footer {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, .25fr);
+    justify-content: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 10px 0;
+    text-align: center;
 }
