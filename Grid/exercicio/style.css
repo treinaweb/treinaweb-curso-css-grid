@@ -36,3 +36,11 @@ header {
    font-size: 18px;
    font-weight: 600; 
 }
+
+/* Main */
+.cards-field {
+    margin-top: 70px;
+    display: grid;
+    grid-template: auto / repeat(5,auto);
+    gap: 50px;
+}
